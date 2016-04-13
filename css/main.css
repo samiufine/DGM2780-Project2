@@ -1,0 +1,139 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, ../scss/partials/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  padding: 0;
+  border: 0;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+/* line 24, ../scss/partials/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 28, ../scss/partials/_reset.scss */
+body {
+  line-height: 1; }
+
+/* line 31, ../scss/partials/_reset.scss */
+ol, ul {
+  list-style: none;
+  clear: both; }
+
+/* line 35, ../scss/partials/_reset.scss */
+blockquote, q {
+  quotes: none; }
+
+/* line 38, ../scss/partials/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 43, ../scss/partials/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 3, ../scss/partials/_header.scss */
+#header {
+  margin-bottom: 20px; }
+  /* line 2, ../scss/partials/_mixins.scss */
+  #header:after {
+    content: '';
+    clear: both;
+    display: table; }
+  /* line 7, ../scss/partials/_header.scss */
+  #header h1 {
+    float: left; }
+  /* line 10, ../scss/partials/_header.scss */
+  #header nav {
+    float: right; }
+    /* line 13, ../scss/partials/_header.scss */
+    #header nav li {
+      float: left;
+      padding: 20px; }
+    /* line 17, ../scss/partials/_header.scss */
+    #header nav a {
+      text-decoration: none;
+      color: #000; }
+
+/* line 1, ../scss/partials/_footer.scss */
+#footer {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px; }
+  /* line 2, ../scss/partials/_mixins.scss */
+  #footer:after {
+    content: '';
+    clear: both;
+    display: table; }
+  /* line 7, ../scss/partials/_footer.scss */
+  #footer li {
+    display: inline-block;
+    float: none;
+    padding: 30px 20px 5px; }
+  /* line 12, ../scss/partials/_footer.scss */
+  #footer a {
+    text-decoration: none;
+    color: #000; }
+
+/* line 5, ../scss/pages/_home-page.scss */
+#home-page .hero-banner {
+  width: 940px;
+  padding-bottom: 20px; }
+/* line 13, ../scss/pages/_home-page.scss */
+#home-page .thumbnails img {
+  padding: 15px;
+  opacity: 1.0;
+  filter: alpha(opacity=40); }
+/* line 18, ../scss/pages/_home-page.scss */
+#home-page .thumbnails img:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=100); }
+/* line 25, ../scss/pages/_home-page.scss */
+#home-page .theme #left {
+  margin-top: -20px;
+  width: 470px;
+  float: left; }
+/* line 31, ../scss/pages/_home-page.scss */
+#home-page .theme #right {
+  margin-left: 470px;
+  /* Change this to whatever the width of your left column is*/ }
+
+/* line 1, ../scss/partials/general-styles.scss */
+html, body, * {
+  box-sizing: border-box;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font: #FF0000;
+  color: #000; }
+
+/* line 8, ../scss/partials/general-styles.scss */
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px 30px;
+  background: #52bd96; }
+  @media (max-width: 768px) {
+    /* line 8, ../scss/partials/general-styles.scss */
+    .wrapper {
+      background: blue; } }
+  @media (max-width: 480px) {
+    /* line 8, ../scss/partials/general-styles.scss */
+    .wrapper {
+      background: yellow; } }

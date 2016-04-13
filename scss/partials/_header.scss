@@ -1,0 +1,22 @@
+// Header SCSS
+
+#header {
+	margin-bottom: 20px;
+	@include clearfix;
+
+	h1 {
+		float: left;
+		}
+    nav {
+    	float: right;
+
+    	li {
+    		float: left;
+    		padding: 20px;
+    	}	
+    	a {
+    		text-decoration: none;
+    		color: $primary-color;
+    	}
+	}
+} // header

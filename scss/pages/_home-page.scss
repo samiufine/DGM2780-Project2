@@ -1,0 +1,45 @@
+// Home Page SCSS
+
+#home-page {
+
+	.hero-banner {
+		width: 940px;
+		padding-bottom: 20px;	
+		
+		//@include border-radius(20px);
+		}
+			
+	.thumbnails {
+		img {
+			padding: 15px;
+			opacity: 1.0;
+	    	filter: alpha(opacity=40);	
+			}
+		img:hover {
+	    	opacity: 0.7;
+	    	filter: alpha(opacity=100);
+    		}
+    	}
+
+	.theme {
+		 	#left {
+		      margin-top: -20px;
+		      width: 470px;
+		      float: left;
+		    }
+
+		    #right {
+		      margin-left: 470px; /* Change this to whatever the width of your left column is*/
+		    }
+	}
+
+} // #home-page
+
+
+// @extend .first-h1
+
+
+
+
+
+

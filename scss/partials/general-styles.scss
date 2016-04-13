@@ -1,0 +1,21 @@
+html, body, * {
+	box-sizing: border-box;
+	font-family: $font-stack;
+	font: $skyrocket-red;
+	color: $primary-color;
+}
+
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 20px 30px;
+	background: $skyrocket-green;
+
+	@include breakpoint(tablet) {
+		background: blue;
+	}
+
+	@include breakpoint(phone) {
+		background: yellow;
+	}
+}
